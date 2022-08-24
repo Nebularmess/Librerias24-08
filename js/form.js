@@ -81,6 +81,7 @@ function denunciaDebitoEvento () {
         confirmButtonText: 'Denunciar!'
       }).then((result) => {
         if (result.isConfirmed) {
+        denunciaDebito.className = 'denunciaDebito'
         tarjeta.className = 'card-registrada-denunciada'  
           Swal.fire(
             'Tarjeta Denunciada',
@@ -101,6 +102,7 @@ function denunciaCreditoEvento () {
         confirmButtonText: 'Denunciar!'
       }).then((result) => {
         if (result.isConfirmed) {
+        denunciaCredito.className = 'denunciaCredito'
         tarjetaCreditoHTML.className = 'card-registrada-denunciada'  
           Swal.fire(
             'Tarjeta Denunciada',
