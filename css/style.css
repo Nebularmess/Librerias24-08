@@ -1,0 +1,50 @@
+.card {
+    background-color: grey;
+    width: 400px;
+    height: 230px;
+    border: solid 2px black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 50px 50px 50px 50px;
+    grid-template-areas: "titulo titulo";
+    margin-bottom: 2px;
+}
+.card__titulo {
+    font-size: 24px;
+    align-self: flex-start;
+}
+.card__elementos {
+    font-size: 16px;
+}
+.card-registrada {
+    background-color: green;
+    width: 400px;
+    height: 230px;
+    border: solid 2px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2px;
+}
+.card-registrada-denunciada {
+    background-color: red;
+    width: 400px;
+    height: 230px;
+    border: solid 2px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2px;
+}
+.denunciaDebito {
+    display: none
+}
+.denunciaDebito__habilitado {
+    display: inline-block
+}
+.denunciaCredito {
+    display: none
+}
+.denunciaCredito__habilitado {
+    display: inline-block
+}

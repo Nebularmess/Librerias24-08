@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos y 1er Entrega - Soria</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <div>
+        <div>
+            <h3>Registre su Tarjeta de Debito</h3>
+            <span> Nombre Completo
+                <input type="text" id="nombre">
+            </span>
+            <span> Banco Emisor
+                <input type="text" id="banco">
+            </span>
+            <span> Fecha de Nacimiento
+                <input type="text" id="fechaNac">
+            </span>
+            <span> DNI
+                <input type="number" id="dni">
+            </span>
+            <span> Domicilio
+            <input type="text" id="domicilio">
+            </span>
+            <button id="boton">Registrar</button>
+        </div>
+        <div id ="card" class="card">
+            <span>No ha registrado su Tarjeta de Debito</span>
+        </div>
+        <button class="denunciaDebito" id="denunciaDebito">Denunciar</button>
+    </div>
+    <div>
+        <div>
+            <h3>Registre su Tarjeta de Credito</h3>
+            <span> Nombre Completo
+                <input type="text" id="nombreCred">
+            </span>
+            <span> Banco Emisor
+                <input type="text" id="bancoCred">
+            </span>
+            <span> Fecha de Nacimiento
+                <input type="text" id="fechaNacCred">
+            </span>
+            <span> DNI
+                <input type="number" id="dniCred">
+            </span>
+            <span> Domicilio
+                <input type="text" id="domicilioCred">
+            </span>
+
+            <button id="botonCred">Registrar</button>
+        </div>
+        <div id ="card-credito" class="card">
+            <span>No ha registrado su Tarjeta de Credito</span>
+        </div>
+        <button class="denunciaCredito" id="denunciaCredito">Denunciar</button>
+    </div>
+    <script src="js/form.js"></script>
+</body>
+</html>
