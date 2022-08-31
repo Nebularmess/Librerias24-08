@@ -1,0 +1,16 @@
+C:\Users\Miri\Documents\nico\arrays-JS-master\arrays-JS-master\vectores\vector_02\obj\Debug\net5.0\vector_02.csprojAssemblyReference.cache
+C:\Users\Miri\Documents\nico\arrays-JS-master\arrays-JS-master\vectores\vector_02\obj\Debug\net5.0\vector_02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Miri\Documents\nico\arrays-JS-master\arrays-JS-master\vectores\vector_02\obj\Debug\net5.0\vector_02.AssemblyInfoInputs.cache
+C:\Users\Miri\Documents\nico\arrays-JS-master\arrays-JS-master\vectores\vector_02\obj\Debug\net5.0\vector_02.AssemblyInfo.cs
+C:\Users\Miri\Documents\nico\arrays-JS-master\arrays-JS-master\vectores\vector_02\obj\Debug\net5.0\vector_02.csproj.CoreCompileInputs.cache
+C:\Users\Miri\Documents\nico\arrays-JS-master\arrays-JS-master\vectores\vector_02\bin\Debug\net5.0\vector_02.exe
+C:\Users\Miri\Documents\nico\arrays-JS-master\arrays-JS-master\vectores\vector_02\bin\Debug\net5.0\vector_02.deps.json
+C:\Users\Miri\Documents\nico\arrays-JS-master\arrays-JS-master\vectores\vector_02\bin\Debug\net5.0\vector_02.runtimeconfig.json
+C:\Users\Miri\Documents\nico\arrays-JS-master\arrays-JS-master\vectores\vector_02\bin\Debug\net5.0\vector_02.runtimeconfig.dev.json
+C:\Users\Miri\Documents\nico\arrays-JS-master\arrays-JS-master\vectores\vector_02\bin\Debug\net5.0\vector_02.dll
+C:\Users\Miri\Documents\nico\arrays-JS-master\arrays-JS-master\vectores\vector_02\bin\Debug\net5.0\ref\vector_02.dll
+C:\Users\Miri\Documents\nico\arrays-JS-master\arrays-JS-master\vectores\vector_02\bin\Debug\net5.0\vector_02.pdb
+C:\Users\Miri\Documents\nico\arrays-JS-master\arrays-JS-master\vectores\vector_02\obj\Debug\net5.0\vector_02.dll
+C:\Users\Miri\Documents\nico\arrays-JS-master\arrays-JS-master\vectores\vector_02\obj\Debug\net5.0\ref\vector_02.dll
+C:\Users\Miri\Documents\nico\arrays-JS-master\arrays-JS-master\vectores\vector_02\obj\Debug\net5.0\vector_02.pdb
+C:\Users\Miri\Documents\nico\arrays-JS-master\arrays-JS-master\vectores\vector_02\obj\Debug\net5.0\vector_02.genruntimeconfig.cache

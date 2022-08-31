@@ -17,6 +17,21 @@ const bancoCred = document.getElementById ('bancoCred')
 const dniCred = document.getElementById ('dniCred')
 const botonCred = document.getElementById ('botonCred')
 
+async function getAsesorRandom () {
+  const response = await fetch('https://randomuser.me/api/')
+  const data = await response.json()
+  const asesor = data.results[0]
+  asesorRandom(asesor)
+}
+function asesorRandom(asesor) {
+  const name = document.getElementById('asesor')
+  const email = document.getElementById('correo')
+  const foto = document.getElementById('foto')
+  name.innerText = `Nombre: ${asesor.name.title} ${asesor.name.first} ${asesor.name.last}`
+  email.innerText = `Correo: ${asesor.email}`
+  foto.setAttribute('src', `${asesor.picture.large}`)
+}
+getAsesorRandom ()
 function datosTarjetaDebito (nombre, fechaNac, domicilio, banco,dni) {
     tarjDebito.push({nombre, fechaNac, domicilio, banco, dni})
     JsonTarjDebito = JSON.stringify(tarjDebito)
